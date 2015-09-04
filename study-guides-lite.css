@@ -1,0 +1,11 @@
+.crumbtrail li:nth-child(1),
+crumbtrail li:nth-child(4),
+.k-sbl-1-container,
+.k-aside,
+aside,
+header,
+.k-nav-1-container,
+.k-kl-lpp-1-container,
+.back-to-topic-button,
+#orb-footer { display: none !important }
+.hero-image, .c-hero, .c-hero--tall {min-height: auto !important}
