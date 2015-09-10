@@ -1,13 +1,13 @@
 {
-	"name": "Study Guides (Lite)",
+	"name": "Guides (Lite)",
 	"version": "1.0",
 	"manifest_version": 2,
-	"icons": { "16": "study-guides-lite-16x16.png",
-	           "48": "study-guides-lite-48x48.png",
-	          "128": "study-guides-lite-128x128.png" },
+	"icons": { "16": "guides-lite-16x16.png",
+	           "48": "guides-lite-48x48.png",
+	          "128": "guides-lite-128x128.png" },
 	"content_scripts": [
-		{ "matches": ["*://*.bbc.co.uk/education/guides/*"], 
-		  "css": ["study-guides-lite.css"]
+		{ "matches": ["*://*.bbc.co.uk/guides/*"], 
+		  "css": ["guides-lite.css"]
 		}
 	]
 }
