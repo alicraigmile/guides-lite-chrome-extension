@@ -1,11 +1,12 @@
-.crumbtrail li:nth-child(1),
-crumbtrail li:nth-child(4),
-.k-sbl-1-container,
-.k-aside,
-aside,
-header,
-.k-nav-1-container,
-.k-kl-lpp-1-container,
-.back-to-topic-button,
+/* we should keep the branding, but need to remove the anchor tag to prevent linking out */
+/*
+.k-bitesize-logo,
+.k-iwonder-logo { display: none !important }
+*/
+
+#orb-banner,
+.k-g-footer, /* Language panel, etc */
+.k-g-share, /* container for share button */
+.end-step, /* where next step */
+.k-g-gn li:last-child, /* where next step in nav */
 #orb-footer { display: none !important }
-.hero-image, .c-hero, .c-hero--tall {min-height: auto !important}
